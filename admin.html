@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin page</title>
+    <link
+      rel="shortcut icon"
+      href="./images/black-four-aces-poker-card-illustration-free-vector.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./images/LogoBun.png" alt="" class="logo"
+          /></a>
+        </div>
+        <div class="nav-links">
+          <a href="./admin.html"><i class="fa-solid fa-user-tie fa-3x"></i></a>
+          <a href="./cart.html"
+            ><i class="fa-solid fa-cart-shopping fa-3x"></i
+          ></a>
+        </div>
+      </div>
+      <form id="deck-form">
+        <div>
+          <label for="name">Deck card</label>
+          <input id="name" />
+        </div>
+        <div>
+          <label for="price">Deck price</label>
+          <input id="price" />
+        </div>
+        <div>
+          <label for="quantity">Quantity</label>
+          <input id="quantity" />
+        </div>
+        <div>
+          <label for="image-url">Image URL</label>
+          <input type="text" id="image-url" />
+        </div>
+        <div>
+          <label for="description">Description</label>
+          <input type="text" id="description" />
+          <button id="save-btn">Save Product</button>
+        </div>
+      </form>
+      <table id="decks-table" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script type="module" src="./admin.js"></script>
+  </body>
+</html>

@@ -1,20 +1,152 @@
 [
   {
-    "id": 1,
-    "name": "Standard",
-    "cover": "https://uscartamundi.vteximg.com.br/arquivos/ids/156023/Main-Image.jpg?v=638120895410170000",
-    "type": "paper",
-    "brand": "Bicycle",
-    "price": 20,
-    "quantity": 100
+    "name": "Bicycle Gypsy Witch",
+    "description": "This refreshed design of our classic Gypsy Witch playing cards is just in time for fall. The story goes that Anne Marie Le Normand was a celebrated French mystic who left an extraordinary imprint on divination. Her system of discerning the past, present, and future by means of cards was celebrated amongst spiritualists, and we have reproduced the concepts here, and have arranged the game so that any person can lay the cards in proper position and proceed with a reading. Alternatively, any traditional playing card game may also be played with these cards.",
+    "price": 50,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157002/_Bicycle_Gypsy-Witch_Hero.png?v=638290015302700000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157003/_Bicycle_Gypsy-Witch_Front.png?v=638290015411100000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157004/_Bicycle_Gypsy-Witch_Back.png?v=638290015586570000",
+    "id": "1"
   },
   {
-    "id": 2,
-    "name": "Tally-Ho",
-    "cover": "https://uscartamundi.vteximg.com.br/arquivos/ids/156032/Main-Image.jpg?v=637955897439370000",
-    "type": "paper",
-    "brand": "Bicycle",
-    "price": 25,
-    "quantity": 100
+    "name": "Disney Classic Mickey Mouse",
+    "description": "Mickey Mouse is a global, cultural icon and truly a pal to everyone. He encourages fans of all ages to embrace their originality and creativity while sparking happiness around the world. Bicycle Disney Classic Mickey Mouse Playing Cards feature the classic Mickey Mouse illustrations and incorporate many iconic visual elements from Mickey Mouse throughout the deck.",
+    "price": 50,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/156704/10039310_Bicycle_Disney-Classic-Mickey_Hero.png?v=638243631881830000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/156705/10039310_Bicycle_Disney-Classic-Mickey_Front.png?v=638243631973600000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/156706/10039310_Bicycle_Disney-Classic-Mickey_Back.png?v=638243632063500000",
+    "id": "2"
+  },
+  {
+    "name": "Bicycle Wednesday",
+    "description": "Step into the shadowy world of Nevermore Academy with Bicycle Wednesday Playing Cards! Inspired by the hit Netflix series starring Jenna Ortega as Wednesday Addams; your next card game is all-in for the thrilling dance with the macabre as you shuffle through the inky black cards featuring fan-favorite characters from the show.",
+    "price": 50,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157633/10045648_Bicycle_Wednesday_Hero.png?v=638645290107900000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157634/10045648_Bicycle_Wednesday_Front.png?v=638645290371930000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157635/10045648_Bicycle_Wednesday_Back.png?v=638645290551570000",
+    "id": "3"
+  },
+  {
+    "name": "Bicycle Cocktail",
+    "description": "If you love the glitz and glamour of The Great Gatsby as much as we do, then you are in luck! A few lucky fans will have the opportunity to discover golden tickets tucked into select Bicycle Cocktail decks",
+    "price": 60,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157564/10045062_Bicycle_Cocktail-Recipes_Hero.png?v=638618416795630000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157565/10045062_Bicycle_Cocktail-Recipes_Front.png?v=638618416877130000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157566/10045062_Bicycle_Cocktail-Recipes_Back.png?v=638618417531700000",
+    "id": "4"
+  },
+  {
+    "name": "Bicycle Gold Dragon",
+    "description": "Celebrate strength and good fortune in the Year of the Dragon with Bicycle Gold Dragon playing cards! Custom court cards dressed in kimono‐inspired garments will bring a unique flare to your next game; and the brilliant, gold foiled framing around the dragons on the tuck case are sure to be show‐stoppers.",
+    "price": 65,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157226/10044106_Bicycle_Dragon-Gold_Hero.png?v=638449014954230000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157227/10044106_Bicycle_Dragon-Gold_Front.png?v=638449015134500000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157228/10044106_Bicycle_Dragon-Gold_Back.png?v=638449015299800000",
+    "id": "5"
+  },
+  {
+    "name": "Bicycle Disney Frozen",
+    "description": "Immerse yourself in the magical world of Arendelle with Disney Frozen Inspired Playing Cards by Bicycle! The icicle blues of the card backs and holographic foil snowflake on the tuck case will turn your next card game into a winter wonderland. Elsa, Anna, Olaf, Sven and more fill the court cards with charisma!",
+    "price": 60,
+    "quantity": 100,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157206/10042439_Bicycle_Disney-Frozen-Inspired_Hero.png?v=638445776682600000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157207/10042439_Bicycle_Disney-Frozen-Inspired_Front.png?v=638445776826600000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157208/10042439_Bicycle_Disney-Frozen-Inspired_Back.png?v=638445777009170000",
+    "id": "6"
+  },
+  {
+    "name": "Bicycle Disney Villains",
+    "description": "The Disney Villains Playing Cards from our Disney Collection showcase four notable Disney villains on the front, with silver and green or purple foil accents on the tuck case. The card faces feature court cards with artwork of 12 different Disney Villains.",
+    "price": 60,
+    "quantity": 50,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/156807/10039960_Bicycle_Disney-Villains-Green_Hero.png?v=638265967096700000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/156808/10039960_Bicycle_Disney-Villains-Green_Front.png?v=638265967196100000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/156809/10039960_Bicycle_Disney-Villains-Green_Back.png?v=638265967304830000",
+    "id": "7"
+  },
+  {
+    "name": "Bicycle Disney Princess",
+    "description": "Bicycle® Disney Princess Playing Cards showcase the iconic Disney castle on the front, with gold and holographic foil accents on the tuck case. The card faces feature court cards with artwork of 12 different Disney Princesses.",
+    "price": 60,
+    "quantity": 80,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/156725/10038679_Bicycle_Disney-Princess-Pink_Hero.png?v=638253954212870000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/156726/10038679_Bicycle_Disney-Princess-Pink_Front.png?v=638253954307100000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/156727/10038679_Bicycle_Disney-Princess-Pink_Back.png?v=638253954502500000",
+    "id": "8"
+  },
+  {
+    "name": "Bicycle World of Warcraft Wrath of the Lich King",
+    "description": "World of Warcraft and Bicycle have come together to celebrate fun in gaming with this Bicycle World of Warcraft playing card deck! An homage to World of Warcraft's online expansion game after Burning Crusade, these premium playing cards feature custom-designed court cards and card backs with officially licensed art from World of Warcraft: Wrath of the Lich King. Rooted in expert craftsmanship, our Bicycle cards are made with our classic card stock, featuring an air-cushion finish for easy handling and shuffling during any game. The perfect gift for a World of Warcraft fan, experience the silver-foiled tuck and enchanting design that is sure to be a unique addition to any World of Warcraft or playing card collection.",
+    "price": 100,
+    "quantity": 30,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/156563/10036435_Bicycle_World-of-Warcraft-WOTLK_Hero02054.png?v=638042267708270000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/156564/10036435_Bicycle_World-of-Warcraft-WOTLK_Front02092.png?v=638042267826830000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/156565/10036435_Bicycle_World-of-Warcraft-WOTLK_Back02093.png?v=638042267947900000",
+    "id": "9"
+  },
+  {
+    "name": "Bicycle Disney Mickey Mouse",
+    "description": "Mickey Mouse is a global, cultural icon and truly a pal to everyone. He encourages fans of all ages to embrace their originality and creativity while sparking happiness around the world. Bicycle Mickey Black and Gold Playing Cards exemplify luxury and style with delicate design elements, hidden Mickeys, and hot-stamped gold foil on each card back.",
+    "price": 60,
+    "quantity": 80,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/156711/10038680_Bicycle_Disney-Black-and-Gold-Mickey_Hero.png?v=638243633638470000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/156712/10038680_Bicycle_Disney-Black-and-Gold-Mickey_Front.png?v=638243633730100000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/156713/10038680_Bicycle_Disney-Black-and-Gold-Mickey_Back.png?v=638243633830770000",
+    "id": "10"
+  },
+  {
+    "name": "Bicycle Paper Royals",
+    "description": "Bicycle Paper Royals marks the first collaborative project of RunIt Decks® with toy designers. Unveiling at ToyCon Philippines 2024, Bicycle Paper Royals stands out as the first deck to feature dual front covers, with BBG and Vee5 gracing each side-a novel design in playing card decks. Printed by the US Playing Card Company, the deck showcases the world-renowned Bicycle® brand with its signature Air-Cushion finish, which has set the standard for playing cards since 1885.",
+    "price": 90,
+    "quantity": 20,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157341/10045651_Bicycle_Paper-Royals_Hero.png?v=638526710097170000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157342/10045651_Bicycle_Paper-Royals_Front.png?v=638526710257670000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157343/10045651_Bicycle_Paper-Royals_Back.png?v=638526710665600000",
+    "id": "11"
+  },
+  {
+    "name": "Bicycle Disney Stitch",
+    "description": "Artwork of Stitch tears through the tuckbox and into our hearts with Disney Stitch Inspired Playing Cards by Bicycle. Bring the Hawaiian magic of Ohana home to your family! Experiment 626 is causing mischief throughout the 54 cards, along with his boojiboo Angel on the court cards!",
+    "price": 60,
+    "quantity": 80,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157262/10042449_Bicycle_Disney-Stitch-Inspired_Hero.png?v=638491453490970000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157263/10042449_Bicycle_Disney-Stitch-Inspired_Front.png?v=638491453693800000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157264/10042449_Bicycle_Disney-Stitch-Inspired_Back.png?v=638491453839430000",
+    "id": "12"
+  },
+  {
+    "name": "Disney Classic Donald Duck",
+    "description": "Showcasing the original disgruntled duck, Disney Classic Donald Duck Inspired Playing Cards by Bicycle are full of whimsical delight. With custom card backs and a spot varnished tuck case, these cards are a quacking good time.",
+    "price": 60,
+    "quantity": 80,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157185/10042417_Bicycle_Disney-Classic-Donald-Duck-Inspired_Hero.png?v=638433508580800000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157186/10042417_Bicycle_Disney-Classic-Donald-Duck-Inspired_Front.png?v=638433508756570000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157187/10042417_Bicycle_Disney-Classic-Donald-Duck-Inspired_Back.png?v=638433508904500000",
+    "id": "13"
+  },
+  {
+    "name": "Bicycle Artist Series: Bijou Karman",
+    "description": "Bijou Karman is an artist and illustrator from Los Angeles. She is inspired by nostalgia, strong women, plants, and a love of print and bright colors. Karman splits her time between illustration and painting original pieces centered around women and fashion. Her illustrations appear in magazines, books, and advertising for clients such as The New Yorker, Rolling Stone, Harper's Bazaar, Penguin, and National Geographic.",
+    "price": 200,
+    "quantity": 20,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157637/_Bicycle_Artist-Series-Bijou-Karman-Package_Hero.png?v=638647750559070000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157638/_Bicycle_Artist-Series-Bijou-Karman-Package_Back.png?v=638647751000070000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157641/_Bicycle_Artist-Series-Bijou-Karman_Back1.png?v=638647751475700000",
+    "id": "14"
+  },
+  {
+    "name": "Bicycle Disney Moana",
+    "description": "Take your next game night on a sea bound adventure to Te Fiti with Disney Moana Inspired Playing Cards by Bicycle! Inside your will find Moana, Maui, along with boat snacks Hei Hei the chicken and Pua the pig!",
+    "price": 60,
+    "quantity": 80,
+    "imageURL": "https://uscartamundi.vteximg.com.br/arquivos/ids/157613/10047494_Bicycle_Disney-Moana-Inspired_Hero.png?v=638640193174800000",
+    "imageURL2": "https://uscartamundi.vteximg.com.br/arquivos/ids/157614/10047494_Bicycle_Disney-Moana-Inspired_Front.png?v=638640193284800000",
+    "imageURL3": "https://uscartamundi.vteximg.com.br/arquivos/ids/157615/10047494_Bicycle_Disney-Moana-Inspired_Back.png?v=638640193416700000",
+    "id": "15"
   }
 ]

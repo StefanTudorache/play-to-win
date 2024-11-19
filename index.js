@@ -1,5 +1,3 @@
-import { getAllDecks } from "./api/products";
-
 const URL = "https://6734f7475995834c8a91885f.mockapi.io/api/decks";
 const decksContainer = document.querySelector(".decks");
 document.addEventListener("DOMContentLoaded", displayDecks);

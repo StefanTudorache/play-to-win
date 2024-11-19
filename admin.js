@@ -52,6 +52,26 @@ function saveDeck(event) {
     description: descriptionInput.value,
   };
 
+  if (
+    deck.name === "" ||
+    deck.price === 0 ||
+    deck.quantity === 0 ||
+    deck.imageURL === "" ||
+    deck.description === ""
+  ) {
+    alert("Fill the empty fields");
+    return;
+  }
+  if (!isValidURL(deck.imageURL)) {
+    alert("Use a valid URL");
+    return;
+  }
+
+  if (deck.quantity < 0 || deck.price < 0) {
+    alert("Use a positive value");
+    return;
+  }
+
   if (editMode) {
     fetch(`${URL}/${currentEditableDeckId}`, {
       method: "PUT",
@@ -96,4 +116,17 @@ function handleActions(event) {
       method: "DELETE",
     }).then(() => displayDecks());
   }
+}
+
+function isValidURL(string) {
+  const pattern = new RegExp(
+    "^(https?:\\/\\/)?" + // protocol
+      "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name
+      "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+      "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+      "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+      "(\\#[-a-z\\d_]*)?$",
+    "i"
+  ); // fragment locator
+  return !!pattern.test(string);
 }

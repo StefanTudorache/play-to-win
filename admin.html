@@ -9,6 +9,7 @@
       href="./images/black-four-aces-poker-card-illustration-free-vector.jpg"
       type="image/x-icon"
     />
+
     <link rel="stylesheet" href="./admin.css" />
     <link
       rel="stylesheet"
@@ -54,23 +55,25 @@
         <div>
           <label for="description">Description</label>
           <input type="text" id="description" />
-          <button id="save-btn">Save Product</button>
         </div>
+        <button id="save-btn">Save Product</button>
       </form>
-      <table id="decks-table" border="1">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Image</th>
-            <th>Description</th>
-            <th>Edit</th>
-            <th>Delete</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div class="table-container">
+        <table id="decks-table" border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Image</th>
+              <th>Description</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
     <script type="module" src="./admin.js"></script>
   </body>

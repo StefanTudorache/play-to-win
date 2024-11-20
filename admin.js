@@ -91,7 +91,10 @@ function saveDeck(event) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(deck),
-    }).then(() => displayDecks());
+    }).then(() => {
+      displayDecks();
+      form.reset();
+    });
   }
 }
 

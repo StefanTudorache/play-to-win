@@ -1,3 +1,12 @@
+import {
+  addNewDeck,
+  deleteDeck,
+  getAllDecks,
+  getDeckById,
+  updateDeck,
+} from "./api/decks.js";
+import { mapDeckToAdminTableRow } from "./utils/layout.js";
+
 const decksTableBody = document
   .getElementById("decks-table")
   .querySelector("tbody");
@@ -6,26 +15,9 @@ document.addEventListener("DOMContentLoaded", displayDecks);
 
 const URL = "https://6734f7475995834c8a91885f.mockapi.io/api/decks";
 
-function displayDecks() {
-  fetch(URL)
-    .then((response) => response.json())
-    .then(
-      (decks) =>
-        (decksTableBody.innerHTML = decks
-          .map(
-            (deck) => `
-    <tr>
-    <td>${deck.name}</td>
-    <td>${deck.price} RON</td>
-    <td>${deck.quantity}</td>
-    <td><img width="100px" src=${deck.imageURL}/></td> 
-    <td>${deck.description}</td>
-    <td><button class="edit-btn" data-deckId=${deck.id}>Edit</button></td>
-    <td><button class="delete-btn" data-deckId=${deck.id}>Delete</button></td>
-    </tr>`
-          )
-          .join(""))
-    );
+async function displayDecks() {
+  const decks = await getAllDecks();
+  decksTableBody.innerHTML = decks.map(mapDeckToAdminTableRow).join("");
 }
 
 // Save a deck
@@ -41,7 +33,7 @@ let editMode = false;
 
 saveDeckBtn.addEventListener("click", saveDeck);
 
-function saveDeck(event) {
+async function saveDeck(event) {
   event.preventDefault();
 
   const deck = {
@@ -73,51 +65,33 @@ function saveDeck(event) {
   }
 
   if (editMode) {
-    fetch(`${URL}/${currentEditableDeckId}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(deck),
-    }).then(() => {
-      form.reset();
-      displayDecks();
-      editMode = false;
-    });
+    await updateDeck(deck, currentEditableDeckId);
+    form.reset();
+    displayDecks();
+    editMode = false;
   } else {
-    fetch(URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(deck),
-    }).then(() => {
-      displayDecks();
-      form.reset();
-    });
+    await addNewDeck(deck);
+    displayDecks();
+    form.reset();
   }
 }
 
 decksTableBody.addEventListener("click", handleActions);
 
-function handleActions(event) {
+async function handleActions(event) {
   if (event.target.classList.contains("edit-btn")) {
     currentEditableDeckId = event.target.getAttribute("data-deckId");
-    fetch(`${URL}/${currentEditableDeckId}`)
-      .then((response) => response.json())
-      .then((deck) => {
-        nameInput.value = deck.name;
-        priceInput.value = deck.price;
-        quantityInput.value = deck.quantity;
-        imageUrlInput.value = deck.imageURL;
-        descriptionInput.value = deck.description;
-      });
+    const deck = await getDeckById(currentEditableDeckId);
+    nameInput.value = deck.name;
+    priceInput.value = deck.price;
+    quantityInput.value = deck.quantity;
+    imageUrlInput.value = deck.imageURL;
+    descriptionInput.value = deck.description;
     editMode = true;
   } else if (event.target.classList.contains("delete-btn")) {
     const id = event.target.getAttribute("data-deckId");
-    fetch(`${URL}/${id}`, {
-      method: "DELETE",
-    }).then(() => displayDecks());
+    await deleteDeck(id);
+    displayDecks();
   }
 }
 

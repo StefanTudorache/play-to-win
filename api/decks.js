@@ -7,7 +7,7 @@ export async function getAllDecks() {
   return decks;
 }
 
-export async function getDecksById(id) {
+export async function getDeckById(id) {
   const response = await fetch(`${URL}/${id}`);
   const deck = response.json();
   return deck;

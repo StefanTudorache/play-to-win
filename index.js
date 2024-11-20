@@ -1,4 +1,4 @@
-import { getAllDecks } from "./decks.js";
+import { getAllDecks } from "./api/decks.js";
 import { mapDeckToCard } from "./utils/layout.js";
 
 const URL = "https://6734f7475995834c8a91885f.mockapi.io/api/decks";

@@ -14,17 +14,21 @@ async function displayDecks() {
     button.addEventListener("click", () => {
       const deckId = button.getAttribute("data-deckId");
       const name = button.getAttribute("data-name");
-      const price = button.getAttribute("data-price");
+      const price = Number(button.getAttribute("data-price"));
       const imageURL = button.getAttribute("data-image");
+      const quantityAvailableOnStock = Number(
+        button.getAttribute("data-quantity")
+      );
       let cart = JSON.parse(localStorage.getItem("cart")) || {};
       if (cart[deckId]) {
         cart[deckId].quantity++;
       } else {
         cart[deckId] = {
           quantity: 1,
-          price: Number(price),
+          price: price,
           image: imageURL,
           name: name,
+          quantityAvailableOnStock: quantityAvailableOnStock,
         };
       }
 

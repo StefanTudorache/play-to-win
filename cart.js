@@ -38,9 +38,13 @@ cartItemsContainer.addEventListener("click", (event) => {
   const id = btn.getAttribute("data-id");
   if (btn.classList.contains("increase")) {
     const id = btn.getAttribute("data-id");
-    cart[id].quantity++;
+    if (cart[id].quantity < cart[id].quantityAvailableOnStock) {
+      cart[id].quantity++;
+    }
   } else if (btn.classList.contains("decrease")) {
-    cart[id].quantity--;
+    if (cart[id].quantity > 1) {
+      cart[id].quantity--;
+    }
   } else if (btn.classList.contains("delete")) {
     delete cart[id];
   }

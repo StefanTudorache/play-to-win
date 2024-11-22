@@ -8,6 +8,7 @@
   padding: 1rem;
   margin: 56px;
   background-color: rgba(179, 181, 232, 0.5);
+  border: 1px solid #ddd;
   border-radius: 12px;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -65,4 +66,19 @@
   font-weight: bold;
   min-width: 32px;
   text-align: center;
+}
+
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  margin: 56px;
+  background-color: rgba(179, 181, 232, 0.5);
+  border-radius: 12px;
+  margin-bottom: 1rem;
 }

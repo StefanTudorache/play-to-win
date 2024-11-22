@@ -30,8 +30,12 @@ function showCart() {
     `;
     grandTotal = grandTotal + cart[id].price * cart[id].quantity;
   }
-  cartTotalContainer.innerHTML =
-    grandTotal === 0 ? "Your cart is empty!" : `Grand total: ${grandTotal} RON`;
+  cartTotalContainer.innerHTML = `<span id="grand-total">${
+    grandTotal === 0 ? "Your cart is empty!" : `Grand total: ${grandTotal} RON`
+  }</span>
+  <a href="./index.html"/>
+  <button>Buy now!</button>
+  </a>`;
 }
 cartItemsContainer.addEventListener("click", (event) => {
   const btn = event.target;

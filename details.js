@@ -31,11 +31,39 @@ async function showDeckDetails() {
       <div class="deck-details">
         <h2 class="deck-name">${deck.name}</h2>
         <p class="deck-price">Price: ${deck.price} RON</p>
+        <p class="deck-stock">Stock: <span>In stock</span></p>
         <p class="deck-description">${deck.description}
         </p>
-        <p class="deck-stock">Stock: <span>In stock</span></p>
+        
         <button class="add-to-cart-button">Adaugă în coș</button>
       </div>
     </div>
   `;
+
+  // const addToCartButton = document.querySelectorAll(".add-to-cart-button");
+  // addToCartButton.forEach((button) => {
+  //   button.addEventListener("click", () => {
+  //     const deckId = button.getAttribute("data-deckId");
+  //     const name = button.getAttribute("data-name");
+  //     const price = Number(button.getAttribute("data-price"));
+  //     const imageURL = button.getAttribute("data-image");
+  //     const quantityAvailableOnStock = Number(
+  //       button.getAttribute("data-quantity")
+  //     );
+  //     let cart = JSON.parse(localStorage.getItem("cart")) || {};
+  //     if (cart[deckId]) {
+  //       cart[deckId].quantity++;
+  //     } else {
+  //       cart[deckId] = {
+  //         quantity: 1,
+  //         price: price,
+  //         image: imageURL,
+  //         name: name,
+  //         quantityAvailableOnStock: quantityAvailableOnStock,
+  //       };
+  //     }
+
+  //     localStorage.setItem("cart", JSON.stringify(cart));
+  //   });
+  // });
 }

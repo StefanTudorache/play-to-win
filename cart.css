@@ -75,6 +75,7 @@
   align-content: center;
   justify-content: center;
   background-color: white;
+  border: 1px solid #ddd;
   width: 600px;
   height: 200px;
   margin: 56px;
